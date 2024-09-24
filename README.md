@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Todo
 
-## Getting Started
+이 어플리케이션은 "todo"로, 사용자가 할 일을 추가, 수정, 삭제, 완료할 수 있는 기능을 제공한다.
 
-First, run the development server:
+## 기능
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **할 일 추가**: 새로운 할 일을 추가할 수 있다.
+- **할 일 수정**: 기존 할 일의 텍스트와 날짜를 수정할 수 있다.
+- **할 일 삭제**: 할 일을 삭제할 수 있다.
+- **할 일 완료**: 할 일을 완료 상태로 표시할 수 있다.
+- **날짜 선택**: 할 일에 날짜와 시간을 추가할 수 있다.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 기술 스택
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **React**: ^18
+- **Next.js**: 14.2.13
+- **TypeScript**: ^5
+- **Tailwind CSS**: ^3.4.13
+- **Moment.js**: ^2.30.1
+- **React Datetime**: ^3.2.0
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 설치 및 실행 방법
 
-## Learn More
+1. 저장소를 클론한다.
+    ```bash
+    git clone https://github.com/your-repo/todo.git
+    cd todo
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+2. 의존성을 설치한다.
+    ```bash
+    npm install
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. 개발 서버를 실행한다.
+    ```bash
+    npm run dev
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. 브라우저에서 [http://localhost:3000](http://localhost:3000)으로 접속한다.
 
-## Deploy on Vercel
+## 배포 방법
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. 애플리케이션을 빌드한다.
+    ```bash
+    npm run build
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. 빌드된 파일을 배포한다.
+    ```bash
+    npm start
+    ```
