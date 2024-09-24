@@ -12,32 +12,26 @@
 
 ## 기술 스택
 
-- **React**: ^18
-- **Next.js**: 14.2.13
-- **TypeScript**: ^5
-- **Tailwind CSS**: ^3.4.13
-- **Moment.js**: ^2.30.1
-- **React Datetime**: ^3.2.0
+- React v18
+- Next.js v14.2.13
+- TypeScript v5
+- Tailwind CSS v3.4.13
+- Moment.js v2.30.1
+- React Datetime v3.2.0
 
 ## 설치 및 실행 방법
 
-1. 저장소를 클론한다.
-    ```bash
-    git clone https://github.com/your-repo/todo.git
-    cd todo
-    ```
-
-2. 의존성을 설치한다.
+1. 의존성을 설치한다.
     ```bash
     npm install
     ```
 
-3. 개발 서버를 실행한다.
+2. 개발 서버를 실행한다.
     ```bash
     npm run dev
     ```
 
-4. 브라우저에서 [http://localhost:3000](http://localhost:3000)으로 접속한다.
+3. 브라우저에서 [http://localhost:3000](http://localhost:3000)으로 접속한다.
 
 ## 배포 방법
 
